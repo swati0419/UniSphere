@@ -23,7 +23,7 @@ A full-stack campus community platform bringing together five student-centric se
 
 | Layer | Technology |
 |---|---|
-| Frontend | React 18, Vite, React Router, Axios |
+| Frontend | React, Vite, React Router, Axios |
 | Backend | Node.js, Express |
 | Database | MongoDB (MongoDB Atlas) with Mongoose |
 | Authentication | JWT, bcryptjs, role-based middleware |
