@@ -1,0 +1,31 @@
+ .pageHeader { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 1.5rem; }
+.title { font-size: 22px; font-weight: 700; letter-spacing: -0.01em; }
+.subtitle { font-size: 14px; color: var(--text-muted); margin-top: 4px; }
+
+.newBtn { padding: 9px 16px; background: var(--accent); color: white; border: none; border-radius: var(--radius-sm); font-size: 13px; font-weight: 500; white-space: nowrap; }
+.newBtn:hover { opacity: 0.9; }
+
+.formCard { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 1.25rem; margin-bottom: 1rem; box-shadow: var(--shadow); display: flex; flex-direction: column; gap: 10px; }
+.input, .select, .textarea { border: 1px solid var(--border); border-radius: var(--radius-sm); padding: 9px 12px; font-size: 14px; background: var(--bg); color: var(--text); outline: none; }
+.input:focus, .select:focus, .textarea:focus { border-color: var(--accent); }
+.textarea { resize: vertical; }
+.formRow { display: flex; gap: 10px; align-items: center; }
+.checkLabel { display: flex; align-items: center; gap: 6px; font-size: 13px; color: var(--text-muted); white-space: nowrap; }
+.submitBtn { padding: 9px 18px; background: var(--accent); color: white; border: none; border-radius: var(--radius-sm); font-size: 13px; font-weight: 500; margin-left: auto; }
+.submitBtn:disabled { opacity: 0.6; }
+
+.list { display: flex; flex-direction: column; gap: 10px; }
+.card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 1.1rem 1.25rem; box-shadow: var(--shadow); }
+.pinnedCard { border-color: var(--accent); background: var(--accent-light); }
+
+.cardTop { display: flex; align-items: center; gap: 8px; margin-bottom: 8px; }
+.catBadge { font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.03em; color: var(--accent); background: var(--accent-light); padding: 2px 9px; border-radius: 20px; }
+.pinBadge { font-size: 11px; color: var(--text-muted); }
+.deleteBtn { margin-left: auto; background: none; border: none; color: var(--text-hint); font-size: 13px; padding: 2px 6px; border-radius: var(--radius-sm); }
+.deleteBtn:hover { color: var(--danger); background: var(--danger-light); }
+
+.cardTitle { font-size: 16px; font-weight: 600; margin-bottom: 6px; }
+.cardContent { font-size: 14px; color: var(--text); line-height: 1.6; margin-bottom: 10px; white-space: pre-wrap; }
+.cardMeta { font-size: 12px; color: var(--text-hint); }
+
+.loading, .empty { padding: 2rem; text-align: center; color: var(--text-muted); }

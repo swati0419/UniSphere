@@ -1,0 +1,39 @@
+ .pageHeader { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 1.5rem; }
+.title { font-size: 22px; font-weight: 700; letter-spacing: -0.01em; }
+.subtitle { font-size: 14px; color: var(--text-muted); margin-top: 4px; }
+
+.newBtn { padding: 9px 16px; background: var(--accent); color: white; border: none; border-radius: var(--radius-sm); font-size: 13px; font-weight: 500; white-space: nowrap; }
+.newBtn:hover { opacity: 0.9; }
+
+.formCard { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 1.25rem; margin-bottom: 1.5rem; box-shadow: var(--shadow); display: flex; flex-direction: column; gap: 10px; }
+.input, .select, .textarea { border: 1px solid var(--border); border-radius: var(--radius-sm); padding: 9px 12px; font-size: 14px; background: var(--bg); color: var(--text); outline: none; flex: 1; }
+.input:focus, .select:focus, .textarea:focus { border-color: var(--accent); }
+.textarea { resize: vertical; }
+.formRow { display: flex; gap: 10px; }
+.submitBtn { padding: 10px; background: var(--accent); color: white; border: none; border-radius: var(--radius-sm); font-size: 13px; font-weight: 500; }
+.submitBtn:disabled { opacity: 0.6; }
+
+.filters { display: flex; gap: 6px; margin-bottom: 1.25rem; flex-wrap: wrap; }
+.filter, .filterActive { padding: 6px 14px; border-radius: 20px; font-size: 13px; font-weight: 500; border: 1px solid var(--border); background: var(--surface); color: var(--text-muted); text-transform: capitalize; }
+.filterActive { background: var(--accent-light); border-color: var(--accent); color: var(--accent); }
+.filter:hover { border-color: var(--accent); }
+
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(270px, 1fr)); gap: 12px; }
+.card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 1.1rem 1.25rem; box-shadow: var(--shadow); display: flex; flex-direction: column; }
+.resolvedCard { opacity: 0.6; }
+
+.cardTop { display: flex; align-items: center; gap: 6px; margin-bottom: 8px; }
+.typeBadge { font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.03em; color: var(--accent); background: var(--accent-light); padding: 2px 9px; border-radius: 20px; }
+.resolvedBadge { font-size: 11px; font-weight: 600; color: var(--success); background: var(--success-light); padding: 2px 9px; border-radius: 20px; }
+.deleteBtn { margin-left: auto; background: none; border: none; color: var(--text-hint); font-size: 13px; padding: 2px 6px; border-radius: var(--radius-sm); }
+.deleteBtn:hover { color: var(--danger); background: var(--danger-light); }
+
+.cardTitle { font-size: 16px; font-weight: 600; margin-bottom: 6px; }
+.cardDesc { font-size: 13px; color: var(--text-muted); line-height: 1.5; margin-bottom: 10px; flex: 1; }
+.cardContact { font-size: 12px; color: var(--text-hint); margin-bottom: 12px; }
+
+.cardFooter { display: flex; justify-content: space-between; align-items: center; padding-top: 10px; border-top: 1px solid var(--border-subtle); }
+.cardMeta { font-size: 12px; color: var(--text-muted); }
+.resolveBtn { padding: 5px 12px; background: var(--success-light); border: 1px solid var(--success); border-radius: var(--radius-sm); font-size: 12px; font-weight: 500; color: var(--success); }
+
+.loading, .empty { padding: 2rem; text-align: center; color: var(--text-muted); }
